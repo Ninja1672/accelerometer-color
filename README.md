@@ -1,30 +1,23 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+For this project I wanted to work on app creation/development, at first I attempted Android Studios but found Expo to be easier due to being able to use Visual Studio Code. The app itself is very simple, it reads in data from an accelerometer on a phone and manipulates that data to allow for RGB changes in the background. Simply Rotating the phone changes the colors across the spectrum but shaking the phone can add significant number changes making it so you can get flashes of white or other colors. It is quite entertaining to watch but please be careful not to throw your phone!
 
-{Provide a description of your app.  Describe how to use the app.}
-
-{Describe your purpose for creating this app.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the app running and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Code Demo](https://www.youtube.com/watch?v=922N3hIfF2w&ab_channel=HunterPowell)
+Skip to the end of the video to see the app actually changing colors
 
 # Development Environment
 
-{Describe the tools that you used to develop the app}
+I used Visual Stuido Code as my IDE while using Expo to write the app itself 
 
-{Describe the programming language that you used and any libraries.}
+When using Expo it imports a great deal, I mainly used the Accelerometer from expo-sensors, it allows an xyz coordinate data to be returned and used.
 
 # Useful Websites
-
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+Documentations that were helpful
+* [Expo Documentation](https://docs.expo.dev/)
+* [React Documentation](https://reactjs.org/docs/getting-started.html)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Add Gyroscope numbers being read
+* Let the user pick to have the colors change based on whichever sensor
+* Let the user tap the screen to stop on a certain color
